@@ -17,7 +17,10 @@
     --logo-heder: #000;
     
 }
-
+h1,h2,h3,h4,h5,h6,p,ul{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
 body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--main-bg);
@@ -28,6 +31,20 @@ body{
     letter-spacing: 0.03em;
         
 }
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid tomato;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .main-div{
+    display: flex;
+    align-items: center;
+}
+
+
 .logo{
     font-family: 'Raleway', sans-serif;
     color: var(--logo-heder);
@@ -42,6 +59,12 @@ body{
 .link{
     text-decoration: none;
 }
+.site-nav {
+margin-left: 93px;
+}
+.site-nav .item + .item{
+    margin-left: 50px;
+}
 .site-nav .link{
     color: var(--h-color-text);
     font-weight: 500;
@@ -49,7 +72,14 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.contact {
+    display: flex;
+margin-left: auto;
+}
 
+.contact .item + .item{
+    margin-left: 50px;
+}
 .contact .link{
     color: var(--main-text-color);
     font-weight: 500;
@@ -80,6 +110,8 @@ body{
     color: var(--main-bg);
 }
 .btn{
+  display: block;
+
     background-color:var(--btn-and-accent);
     color: var(--main-bg);
     font-weight: 700;
@@ -121,11 +153,15 @@ line-height: 1.18;
 color: var(--main-text-color);
 
 }
+ .site-nav {
+    display: flex;
+} 
 
 .section-list,
 .site-nav,
 .contact{
    list-style-type: none;
+    display: flex;
 }
 .none{
     display: none;
