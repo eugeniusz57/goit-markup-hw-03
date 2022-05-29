@@ -372,7 +372,6 @@ padding: 6px 22px;
 }
 .galery-item{
     box-sizing: border-box;
-    padding-bottom: 20px;
     width: calc((100% - 60px) / 3);
     
 }
