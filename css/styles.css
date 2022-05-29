@@ -39,7 +39,7 @@ img{
     display: block;
 }
 .container{
-    width: 1170px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     outline: 1px solid tomato;
@@ -127,12 +127,13 @@ img{
 /* section main */
 /* hero */
 .hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color: var(--second-bg) ;
     text-align: center;
    
 }
 .hero-title{
-    padding-top: 200px;
     margin-bottom: 30px;
 
     font-weight: 900;
@@ -144,9 +145,9 @@ img{
 }
 .btn{
     min-width: 200px;
-    margin-bottom: 200px;
     padding: 10px 32px;
     border: 0;
+    border-radius: 4px;
 
     background-color:var(--btn-and-accent);
     color: var(--main-bg);
@@ -202,16 +203,18 @@ width: calc((100% - 90px) / 4);
 .galery .item:nth-child(3n) {
     margin-right: 0px;
 }
+
 .teams{
     background-color: var(--teams-bg);
 }
 .teams .item {
-     text-align: center;
+    
+    text-align: center;
     width: calc((100% - 90px) / 4);
     margin-right: 30px;
     padding-bottom: 30px;
     display: block;
-
+    
 }
 .teams .item:nth-child(4n){
     margin-right: 0px;
@@ -233,7 +236,9 @@ width: calc((100% - 90px) / 4);
     padding-bottom: 94px;
     border: 1px solid green;
 }
-
+.work {
+    padding-top: 0px;
+}
 .section-title{
     text-align: center;
     color: var(--h-color-text);
@@ -276,13 +281,12 @@ width: calc((100% - 90px) / 4);
 
 /* FOOTEr */
 .footer{
+        padding-top: 60px;
+        padding-bottom: 60px;
     background-color: var(--second-bg);
 }
 
-.footer-div{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+
 .footer-contact{
 list-style-type: none;
 padding-left: 0px;
@@ -320,6 +324,9 @@ padding-left: 0px;
 /* portfolio */
 .project{
     padding: 20px 24px;
+    border-right: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
 }
 .portfolio-title{
     margin-bottom: 20px;
@@ -367,12 +374,11 @@ padding: 6px 22px;
     box-sizing: border-box;
     padding-bottom: 20px;
     width: calc((100% - 60px) / 3);
-    border-right: 1px solid var(--border);
-    border-left: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
+    
 }
+
 .prt-work .galery-item{
-    margin-bottom: 140px;
+    margin-bottom: 30px;
 }
 .prt-work .galery-item:nth-last-child(-n+3){
     margin-bottom: 0px;
