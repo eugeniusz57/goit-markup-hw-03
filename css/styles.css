@@ -17,6 +17,7 @@
     --logo-heder: #000;
     --border: #EEEEEE;
     --teams-bg: #F5F4FA;
+    --heder-border: #ECECEC;
     
 }
 h1,h2,h3,h4,h5,h6,p,ul{
@@ -50,7 +51,9 @@ img{
     display: flex;
     align-items: center;
 }
-
+.page-header{
+    border-bottom: 1px solid var(--heder-border);
+}
 
 .logo{
 
